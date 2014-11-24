@@ -1,10 +1,13 @@
+#include "linkedlist.h"
 #include <iostream>
-
 using namespace std;
 
 int main()
 {
-    cout << "Hello World!" << endl;
+    LinkedList list;
+    list.PrintList();
+    list.InsertBegining(1);
+    list.PrintList();
     return 0;
 }
 
