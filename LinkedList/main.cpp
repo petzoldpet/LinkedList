@@ -10,6 +10,7 @@ int main()
     list.InsertBegining(2);
     list.InsertBegining(3);
     list.InsertBegining(4);
+    list.InsertBegining(5);
     list.PrintList();
     return 0;
 }
